@@ -2,7 +2,7 @@
 
 
 Number of files: 6
-Name of files: MINIPROJECT_189025597.py, All_atom_matrix.py, Calpha_matrix.py, protein_confomrations.py, chain_renaming.py and source_scripts.py
+Name of files: Main_script.py, All_atom_matrix.py, Calpha_matrix.py, protein_confomrations.py, chain_renaming.py and source_scripts.py
 
 Modules
 
@@ -18,8 +18,8 @@ The modules required for the scripts to run are listed below followed by their d
 
 How to use the scripts
 
-The user will only have to run 1 script ‘MINIPROJECT_189025597.py’.
-$ python3  MINIPROJECT_189025597.py
+The user will only have to run 1 script ‘Main_script.py’.
+$ python3  Main_script.py
 
 This script will give the user the options to run 1 of 4 scripts at a time that have specific functionalities that save their outputs into the outputs folder. After the user has entered a pdb identifier code or inputted a specific letter or number hit enter to continue
 
@@ -66,7 +66,7 @@ The data flow and interaction between scripts is demonstrated below ← → repr
 
 User input →
 
-	 	←  MINIPROJECT_189025597.py →
+	 	←  Main_script.py →
 	
 						      ← All_atom_matrix.py, → 
 						      ← Calpha_matrix.py, →
